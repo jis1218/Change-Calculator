@@ -7,8 +7,11 @@ public class ChangeCalculator {
 		ChangeCalculator newClass = new ChangeCalculator(); //class에 있는 모든 함수를 메모리에 올리는 과정
 //		newClass.calc(10000, 4560);
 		
-		Change calcchange = new Change();
-		calcchange.calc(10000, 3560);
+		Change change = new Change();
+		change.calc(10000, 3560);
+		
+		Change newChange = new NewChange(); //부모타입에 있던 리소스만 나열된다. 상속받은 
+		
 //		Scanner sc = new Scanner(System.in);
 //		
 //		System.out.println("지불금액 : ");
